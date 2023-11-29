@@ -323,11 +323,14 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/mukeshbotzone/90"
+                                "ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/jee_study_room"
                             ),
                             InlineKeyboardButton(
-                                "Dɪsᴀsᴛᴇʀ", url="https://t.me/mukeshbotzone/26"
+                                "ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/offtopic_community"
                             ),
+                        ],
+                        [
+                            InlineKeyboardButton("◉ 𝐀ʙᴏᴜᴛ 𝐉ꜱʀᴏ ◉", url="https://t.me/JeeStudyRoom"),
                         ],
                         [
                             InlineKeyboardButton(
@@ -336,7 +339,7 @@ def info(update: Update, context: CallbackContext):
                             ),
                         ],
                     ]
-                ),
+                        ),
                 parse_mode=ParseMode.HTML,
             )
 
