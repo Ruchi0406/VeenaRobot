@@ -594,14 +594,14 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/offtopic_community"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
-                    ]
+                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/offtopic_community"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support"),
+                    ],
                  [
-                        InlineKeyboardButton(text="◉ 𝐀ʙᴏᴜᴛ 𝐉ꜱʀᴏ ◉", url="https://t.me/JeeStudyRoom"),InlineKeyboardButton(text="◕ 𝐀ʙᴏᴜᴛ 𝐀ᴅɪᴛʏᴀ ◕", url="https://t.me/uttarpradeshi_17")
-                ]
+                        InlineKeyboardButton(text="◉ 𝐀ʙᴏᴜᴛ 𝐉ꜱʀᴏ ◉", url="https://t.me/JeeStudyRoom"),InlineKeyboardButton(text="◕ 𝐀ʙᴏᴜᴛ 𝐀ᴅɪᴛʏᴀ ◕", url="https://t.me/uttarpradeshi_17"),
+                ],
                  [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help")
-                    ]
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),
+                    ],
                 ]
             ),
             )  
