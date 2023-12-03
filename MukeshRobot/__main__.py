@@ -104,7 +104,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🎈 𝐂ʜᴀᴛ-𝐆ᴘᴛ 🎈"
+            text="🎈 𝐂ʜᴀᴛ-𝐆ᴘᴛ 🎈",
             query.message.edit_caption(f"*ʜᴇʏ,*🥀\n  *ᴛʜɪs ɪs {dispatcher.bot.first_name}*")
         ),
     ],
