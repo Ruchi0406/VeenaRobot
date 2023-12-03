@@ -360,7 +360,6 @@ def help_button(update, context):
     except BadRequest:
         pass
 
-@run_async
 def Mukesh_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
 if query.data == "Aditya_":
