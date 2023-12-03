@@ -361,6 +361,8 @@ def help_button(update, context):
         pass
 
 @run_async
+def Mukesh_about_callback(update: Update, context: CallbackContext):
+    query = update.callback_query
 if query.data == "Aditya_":
     query.message.delete()
     context.bot.send_message(
