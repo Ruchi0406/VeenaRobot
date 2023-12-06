@@ -183,7 +183,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "ᴏʜ ɢᴇɴᴏs? ʟᴇᴛs ɢᴇᴛ ᴛʜɪs ᴍᴏᴠɪɴɢ.", reply_to_message_id=reply
+                    "Bᴏᴛ Oᴡɴᴇʀ Jᴜsᴛ Jᴏɪɴᴇᴅ ᴛʜᴇ ɢʀᴏᴜᴘ", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
@@ -273,7 +273,7 @@ def new_member(update: Update, context: CallbackContext):
                     parse_mode=ParseMode.HTML,
                 )
                 update.effective_message.reply_text(
-                    "Watashi ga kita !", reply_to_message_id=reply
+                    "ᴀʀᴇʏ, ᴅᴇᴋʜᴏ ᴍᴇʜᴍᴀɴ ᴀᴀʏᴇ ʜᴀɪɴ 👀", reply_to_message_id=reply
                 )
                 continue
 
