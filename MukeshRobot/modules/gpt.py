@@ -30,7 +30,7 @@ async def chat_gpt(event):
 
                 # Add signature to the answer
                 answer = result.get("answer", "No answer received from ChatGPT.")
-                signature = "\n\nᴀɴsᴡᴇʀ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ [𝐐𝐔𝐄𝐄𝐍](https://t.me/TheQueenRobot)"
+                signature = "\n\nᴀɴsᴡᴇʀ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ [˹ 𝐕ᴇᴇɴᴀ ✘ 𝐌ᴜꜱɪᴄ ˼ ♪](https://t.me/VeenaMusic_bot)"
                 reply_message = answer + signature
 
                 # Edit the "Please wait" message with the final answer
