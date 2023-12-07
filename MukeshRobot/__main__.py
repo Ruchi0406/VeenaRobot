@@ -105,7 +105,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="🎈 𝐂ʜᴀᴛ-𝐆ᴘᴛ 🎈",
-            url=f"https://t.me/offtopic_community/232324",
+            url=f"https://t.me/JeeStudyRoom/7",
         ),
     ],
     ]
