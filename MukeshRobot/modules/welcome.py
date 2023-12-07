@@ -655,9 +655,6 @@ __help__ = """
 NEW_MEM_HANDLER = MessageHandler(
     Filters.status_update.new_chat_members, new_member, run_async=True
 )
-LEFT_MEM_HANDLER = MessageHandler(
-    Filters.status_update.left_chat_member, left_member, run_async=True
-)
 WELC_PREF_HANDLER = CommandHandler(
     "welcome", welcome, filters=Filters.chat_type.groups, run_async=True
 )
