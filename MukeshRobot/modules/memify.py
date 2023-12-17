@@ -38,7 +38,7 @@ def memify(update: Update, context: CallbackContext) -> None:
         update.message.reply_text("Please send a photo or sticker to memify!")
 
 # Set up the bot with the token from environment variable
-updater = Updater(os.getenv("TELEGRAM_BOT_TOKEN"))
+updater = Updater(os.getenv("TOKEN"))
 
 # Set up command handlers
 updater.dispatcher.add_handler(CommandHandler("mmf", memify))
