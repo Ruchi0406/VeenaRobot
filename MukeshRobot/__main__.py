@@ -228,7 +228,7 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.3)
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... 𝐕ᴇᴇɴᴀ 𝐎ᴘ")
             time.sleep(0.8)
-            lol.edit_text(💥)
+            lol.edit_text("💥")
             time.sleep(0.4)
             lol.delete()
             
