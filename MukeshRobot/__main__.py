@@ -75,8 +75,9 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """ 
-➪ *ʜᴇʏ ᴅᴇᴀʀ* {} , 🥀
-╔═════════ஜ۩۞۩ஜ════════❍⊱❁۪
+➪ *ʜᴇʏ ᴅᴇᴀʀ {}* 🥀
+
+╔════════ஜ۩۞۩ஜ═══════❍⊱❁۪
 ║ *๏ ɪ'ᴍ {} ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ*
 ║ *ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs!*
 ║ ➻ *ɪ ᴀᴍ ʀᴇᴀᴅʏ ᴛᴏ ꜱᴇʀᴠᴇ ʏᴏᴜ ᴀꜱ*
@@ -86,12 +87,12 @@ PM_START_TEXT = """
 ║ ➻ *ɪ'ᴍ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴩ* 
 ║ *ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ➕ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ* 
 ║ *ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs.* 
-╚═════════ஜ۩۞۩ஜ════════❍⊱❁
+╚════════ஜ۩۞۩ஜ═══════❍⊱❁
 
 ●──────────────────────●
 ║┏━━━━━━❍➣ 
-║ ┣⪼ *➻ ᴜsᴇʀs »* {}
-║ ┣⪼ *➻ ᴄʜᴀᴛs »* {}
+║ ┣⪼ *➻ ᴜsᴇʀs » {}*
+║ ┣⪼ *➻ ᴄʜᴀᴛs » {}*
 ║┗━━━━━━❍➣ 
 ●──────────────────────●
 """
@@ -484,7 +485,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(text="💁 Bᴀsɪᴄ ", callback_data="basic_help"),
-                        InlineKeyboardButton(text="Exᴘᴇʀᴛ 👮", callback_data="expert_help")
+                        InlineKeyboardButton(text="Cʜᴀᴛ Gᴘᴛ 🎈", callback_data="expert_help")
                     ],
                     [
                         InlineKeyboardButton(text="🍹 Aᴅᴠᴀɴᴄᴇ", callback_data="advance_help"),
@@ -585,7 +586,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
 
 💘 𝐀ʙᴏᴜᴛ: ᴜꜱᴇ ᴛʜᴇ /gpt ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɪɴᴛᴇʀᴀᴄᴛ ᴡɪᴛʜ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ 𝙲𝙷𝙰𝚃 𝙶𝙿𝚃-𝟺 ᴍᴏᴅᴇʟ ꜰᴏʀ ᴀɴ ᴇɴʜᴀɴᴄᴇᴅ ᴄʜᴀᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ. ᴛʜɪꜱ ɪꜱ ᴀ ɴᴇᴡ ꜰᴇᴀᴛᴜʀᴇ, ᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ɪᴛ ᴜɴʟɪᴍɪᴛᴇᴅʟʏ...
 
-💗 𝐅ᴇᴀᴛᴜʀᴇꜱ: /gpt [ყσυɾ ɱεssαցҽ] -- ɪɴɪᴛɪᴀᴛᴇ ᴀ ᴄᴏɴᴠᴇʀꜱɪᴏɴ ᴡɪᴛʜ 𝙲𝙷𝙰𝚃 𝙶𝙿𝚃-𝟺, ᴀɴᴅ ɪᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴏᴜɢʜᴛꜰᴜʟ ᴀɴᴅ ᴄᴏɴᴛᴇxᴛᴡᴀʀᴇ ʀᴇꜱᴘᴏɴꜱᴇꜱ.
+💗 𝐅ᴇᴀᴛᴜʀᴇꜱ: /gpt {ყσυɾ ɱεssαցҽ} -- ɪɴɪᴛɪᴀᴛᴇ ᴀ ᴄᴏɴᴠᴇʀꜱɪᴏɴ ᴡɪᴛʜ 𝙲𝙷𝙰𝚃 𝙶𝙿𝚃-𝟺, ᴀɴᴅ ɪᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴏᴜɢʜᴛꜰᴜʟ ᴀɴᴅ ᴄᴏɴᴛᴇxᴛᴡᴀʀᴇ ʀᴇꜱᴘᴏɴꜱᴇꜱ.
 
 ╰┈➤𝐍ᴏᴛᴇ : 𝚃𝙷𝙸𝚂 𝙵𝙴𝙰𝚃𝚄𝚁𝙴 𝙸𝚂 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 𝙵𝙾𝚁 𝙰𝙻𝙻 𝚄𝚂𝙴𝚁𝚂, 𝙰𝙽𝙳 𝙸𝚃 𝙰𝙳𝙳 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝙳𝙸𝙼𝙴𝙽𝚂𝙸𝙾𝙽 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙲𝙷𝙰𝚃 𝙸𝙽𝚃𝙴𝚁𝙰𝙲𝚃𝙸𝙾𝙽𝚂. 𝙴𝙽𝙹𝙾𝚈 𝚃𝙷𝙴 𝚄𝙿𝙶𝚁𝙰𝙳𝙴𝙳 𝙲𝙰𝙿𝙰𝙱𝙸𝙻𝙸𝚃𝙸𝙴𝚂 ᴏғ  𝐂𝐇𝐀𝐓 𝐆𝐏𝐓-𝟒 𝚂𝙴𝙰𝙼𝙻𝙴𝚂𝚂𝙻𝚈!
 
@@ -595,7 +596,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
                     ]
                 ]
             ),
