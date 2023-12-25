@@ -69,7 +69,7 @@ async def drawText(image_path, text):
 
     if upper_text:
         for u_text in textwrap.wrap(upper_text, width=15):
-            u_width, u_height = draw.textsize(u_text, font=m_font)
+            u_width, u_height = m_font.getsize(u_text)
 
             draw_text_position = (
                 ((i_width - u_width) / 2),
@@ -93,7 +93,7 @@ async def drawText(image_path, text):
 
     if lower_text:
         for l_text in textwrap.wrap(lower_text, width=15):
-            u_width, u_height = draw.textsize(l_text, font=m_font)
+            u_width, u_height = m_font.getsize(l_text)
 
             draw_text_position = (
                 ((i_width - u_width) / 2),
