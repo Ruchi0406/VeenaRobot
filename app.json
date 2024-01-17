@@ -79,7 +79,7 @@
        "value": "offtopic_community"
         },
      "HEROKU_APP_NAME" : {
-         "description": "your heroku app name"
+         "description": "your heroku app name",
          "required": false,
          "value": ""
      },
