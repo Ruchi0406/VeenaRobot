@@ -8,6 +8,7 @@ class Config(object):
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "" # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    HEROKU_APP_NAME = "veenarobot"
     
     SUPPORT_CHAT = ""  # Your own group for support, do not add the @
     START_IMG = ""
