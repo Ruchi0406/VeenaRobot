@@ -104,8 +104,8 @@ async def dyno_usage(dyno):
     if dyno.fwd_from:
         return
     if dyno.sender_id == OWNER_ID:
-        pass
-else:
+        pass 
+    else:
         return
     """
     Get your account Dyno Usage
