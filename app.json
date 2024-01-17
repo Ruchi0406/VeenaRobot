@@ -81,7 +81,7 @@
      "HEROKU_APP_NAME" : {
          "description": "your heroku app name"
          "required": false,
-         "value": "veenarobot"
+         "value": ""
      },
     "TOKEN": {
        "description": "Get bot token from @BotFather on TG",
