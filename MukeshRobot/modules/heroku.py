@@ -215,3 +215,16 @@ def prettyjson(obj, indent=2, maxlinelength=80):
     return indentitems(items, indent, level=0)
 
 __mod_name__ = "Hᴇʀᴏᴋᴜ"
+__help__ = """ 
+Here is some functions for heroku development!
+
+USAGE:
+➢ /duo - Use heroku dual mode.
+➢ /deploy - Deploy bots to heroku.
+➢ /redeploy - Redeploy bots to heroku.
+
+NOTE:
+• Shizuki should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member. """
+
