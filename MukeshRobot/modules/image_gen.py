@@ -8,7 +8,7 @@ from MukeshRobot.events import register
 API_URL = "https://api-inference.huggingface.co/models/OEvortex/HelpingAI-PixelCraft"
 HEADERS = {"Authorization": "Bearer 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"}
 
-@register(pattern="^/imagegen(?: (.+))?")
+@register(pattern="^/genai(?: (.+))?")
 async def generate_image(event):
     if event.fwd_from:
         return
@@ -51,3 +51,6 @@ async def generate_image(event):
         await event.reply("Please provide a prompt after /imagegen command. For example: `/imagegen Generate a beautiful landscape`")
 
 __mod_name__ = "ImageGenAI"
+__help__ = """
+/genai :- Genrate images with Ai
+ """
