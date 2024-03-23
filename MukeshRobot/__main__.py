@@ -118,9 +118,10 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🎈 𝐂ʜᴀᴛ-𝐆ᴘᴛ 🎈",
+            text="🎈𝐂ʜᴀᴛ-𝐆ᴘᴛ🎈",
             callback_data="expert_help",
         ),
+        InlineKeyboardButton(text="𝚄𝙿𝙶𝚁𝙰𝙳𝙴𝙳 𝙱𝙾𝚃", url=f"https://t.me/Iconic_Robot"),
     ],
     ]
 
